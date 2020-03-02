@@ -5,25 +5,32 @@ import strings from '../res/strings';
 class BasicInputExample extends Component {
   constructor(props) {
     super(props);
+    this.handleTextChange = this.handleTextChange.bind(this);
+
     this.state = {};
   }
 
   render() {
+    const { value } = this.state;
     return (
       <View>
         <Text>
           {strings.textInput.label}
         </Text>
         <TextInput
-          value={this.state.value}
-          onChangeText={(value) => this.setState({ value })}
+          value={value}
+          onChangeText={this.handleTextChange}
           placeholder={strings.textInput.hint}
         />
         <Text>
-          {this.state.value}
+          {value}
         </Text>
       </View>
     );
+  }
+
+  handleTextChange(value) {
+    this.setState({ value });
   }
 }
 
