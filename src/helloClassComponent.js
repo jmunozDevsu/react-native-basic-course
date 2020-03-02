@@ -5,7 +5,8 @@ class HelloClassComponent extends Component {
   render() {
     return (
       <View
-        style={styles.container}>
+        style={styles.container}
+      >
         <Text
           style={styles.blueText}
         >

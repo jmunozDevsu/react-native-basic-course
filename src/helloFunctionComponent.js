@@ -4,7 +4,8 @@ import { StyleSheet, StyleSheet, Text , View } from 'react-native';
 function HelloFunctionComponent() {
   return (
     <View
-      style={styles.container}>
+      style={styles.container}
+    >
       <Text
         style={[styles.blueText, styles.boldText]}
       >
