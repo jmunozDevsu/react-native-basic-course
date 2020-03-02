@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View } from 'react-native';
-import strings from './res/strings';
-import commonStyles from './styles/common';
+import strings from '../res/strings';
+import commonStyles from '../styles/common';
 
 function HelloFunctionComponent() {
   return (

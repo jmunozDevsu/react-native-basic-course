@@ -1,12 +1,10 @@
 import React, { Fragment } from 'react';
-import HelloFunctionComponent from './helloFunctionComponent';
-import HelloClassComponent from './helloClassComponent';
+import BasicInputExample from './components/basicInputExample';
 
 function App() {
   return (
     <Fragment>
-      <HelloClassComponent/>
-      <HelloFunctionComponent/>
+      <BasicInputExample/>
     </Fragment>
   );
 }
