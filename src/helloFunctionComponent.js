@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text , View } from 'react-native';
+import { Text, View } from 'react-native';
 import strings from './res/strings';
 import commonStyles from './styles/common';
 
