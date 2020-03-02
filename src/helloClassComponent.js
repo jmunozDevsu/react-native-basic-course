@@ -1,52 +1,27 @@
 import React, { Component } from 'react';
-import { StyleSheet, StyleSheet, Text , View } from 'react-native';
+import { Text, View } from 'react-native';
+import strings from './res/strings';
+import commonStyles from './styles/common';
 
 class HelloClassComponent extends Component {
   render() {
     return (
       <View
-        style={styles.container}
+        style={commonStyles.container}
       >
         <Text
-          style={styles.blueText}
+          style={commonStyles.blueText}
         >
-          {'Hello '}
+          {strings.hello}
           <Text
-            style={styles.boldText}
+            style={commonStyles.boldText}
           >
-            {'Class Component'}
+            {strings.classComponent}
           </Text>
         </Text>
-      </Text>
       </View>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-  },
-  blueText: {
-    color: 'blue',
-  },
-  boldText: {
-    fontWeight: 'bold',
-  },
-});
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-  },
-  blueText: {
-    color: 'blue',
-  },
-  boldText: {
-    fontWeight: 'bold',
-  },
-});
 
 export default HelloClassComponent;

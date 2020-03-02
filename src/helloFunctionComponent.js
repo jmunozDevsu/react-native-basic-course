@@ -1,55 +1,25 @@
 import React from 'react';
-import { StyleSheet, StyleSheet, Text , View } from 'react-native';
+import { StyleSheet, Text , View } from 'react-native';
+import strings from './res/strings';
+import commonStyles from './styles/common';
 
 function HelloFunctionComponent() {
   return (
     <View
-      style={styles.container}
+      style={commonStyles.container}
     >
       <Text
-        style={[styles.blueText, styles.boldText]}
+        style={[commonStyles.blueText, commonStyles.boldText]}
       >
-        {'Hello '}
+        {strings.hello}
       </Text>
       <Text
-        style={[styles.redText, styles.boldText]}
+        style={[commonStyles.redText, commonStyles.boldText]}
       >
-        {'Functional Component'}
+        {strings.functionalComponent}
       </Text>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-  },
-  redText: {
-    color: 'red',
-  },
-  blueText: {
-    color: 'blue',
-  },
-  boldText: {
-    fontWeight: 'bold',
-  },
-});
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-  },
-  redText: {
-    color: 'red',
-  },
-  blueText: {
-    color: 'blue',
-  },
-  boldText: {
-    fontWeight: 'bold',
-  },
-});
 
 export default HelloFunctionComponent;
