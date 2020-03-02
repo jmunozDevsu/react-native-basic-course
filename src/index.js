@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
-import BasicInputExample from './components/basicInputExample';
+import ImageExample from './components/imageExample';
 
 function App() {
   return (
     <Fragment>
-      <BasicInputExample/>
+      <ImageExample/>
     </Fragment>
   );
 }
