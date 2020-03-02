@@ -1,11 +1,11 @@
 import React from 'react';
-import {SafeAreaView, Text} from 'react-native';
+import { Text, View } from 'react-native';
 
 function HelloFunctionComponent() {
   return (
-    <SafeAreaView style={{flex: 1}}>
+    <View>
       <Text>{'Hello Function Component'}</Text>
-    </SafeAreaView>
+    </View>
   );
 }
 

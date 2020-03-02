@@ -1,12 +1,12 @@
-import React, {Component} from 'react';
-import {SafeAreaView, Text} from 'react-native';
+import React, { Component } from 'react';
+import { Text, View } from 'react-native';
 
 class HelloClassComponent extends Component {
   render() {
     return (
-      <SafeAreaView style={{flex: 1}}>
+      <View>
         <Text>{'Hello Class Component'}</Text>
-      </SafeAreaView>
+      </View>
     );
   }
 }

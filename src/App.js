@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import HelloFunctionComponent from './helloFunctionComponent';
+import HelloClassComponent from './helloClassComponent';
 
 function App() {
   return (
-    <HelloFunctionComponent/>
+    <Fragment>
+      <HelloClassComponent/>
+      <HelloFunctionComponent/>
+    </Fragment>
   );
 }
 
