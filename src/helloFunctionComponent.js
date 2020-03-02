@@ -1,11 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, StyleSheet, Text , View } from 'react-native';
 
 function HelloFunctionComponent() {
   return (
     <View
-      style={styles.container}
-    >
+      style={styles.container}>
       <Text
         style={[styles.blueText, styles.boldText]}
       >
@@ -19,6 +18,22 @@ function HelloFunctionComponent() {
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+  },
+  redText: {
+    color: 'red',
+  },
+  blueText: {
+    color: 'blue',
+  },
+  boldText: {
+    fontWeight: 'bold',
+  },
+});
 
 const styles = StyleSheet.create({
   container: {
