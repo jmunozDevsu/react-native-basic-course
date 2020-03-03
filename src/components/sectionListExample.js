@@ -25,6 +25,7 @@ function SectionListExample() {
   return (
     <SectionList
       sections={sections}
+      stickySectionHeadersEnabled
       keyExtractor={(item, index) => `${item}${index}`}
       renderItem={({ item }) => (
         <Text>
@@ -33,7 +34,7 @@ function SectionListExample() {
       )}
       renderSectionHeader={({ section: { title } }) => (
         <Text
-        style={styles.sectionHeader}
+          style={styles.sectionHeader}
         >
           {title}
         </Text>
