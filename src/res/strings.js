@@ -9,4 +9,9 @@ export default {
   button: {
     title: 'This is a button',
   },
+  picker: {
+    option1: 'Option 1',
+    option2: 'Option 2',
+    option3: 'Option 3',
+  },
 };

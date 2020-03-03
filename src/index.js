@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
-import TouchablesExample from './components/touchablesExample';
+import PickerExample from './components/pickerExample';
 
 function App() {
   return (
     <Fragment>
-      <TouchablesExample/>
+      <PickerExample/>
     </Fragment>
   );
 }
