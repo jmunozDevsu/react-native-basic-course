@@ -6,6 +6,7 @@ function ButtonExample() {
   return (
     <Button
       title={strings.button.title}
+      onPress={() => alert('button pressed!')}
     />
   );
 }
