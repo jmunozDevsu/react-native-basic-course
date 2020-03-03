@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
-import ScrollViewExample from './components/scrollViewExample';
+import ButtonExample from './components/buttonExample';
 
 function App() {
   return (
     <Fragment>
-      <ScrollViewExample/>
+      <ButtonExample/>
     </Fragment>
   );
 }

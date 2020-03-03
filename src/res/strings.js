@@ -6,4 +6,7 @@ export default {
     label: 'Ingresa un texto',
     hint: 'Ej. Un texto',
   },
+  button: {
+    title: 'This is a button',
+  },
 };
