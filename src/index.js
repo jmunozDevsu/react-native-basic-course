@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
-import ButtonExample from './components/buttonExample';
+import TouchablesExample from './components/touchablesExample';
 
 function App() {
   return (
     <Fragment>
-      <ButtonExample/>
+      <TouchablesExample/>
     </Fragment>
   );
 }

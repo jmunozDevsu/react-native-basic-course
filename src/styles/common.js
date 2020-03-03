@@ -14,4 +14,12 @@ export default StyleSheet.create({
   boldText: {
     fontWeight: 'bold',
   },
+  whiteText: {
+    color: 'white',
+  },
+  touchable: {
+    padding: 10,
+    marginTop: 10,
+    backgroundColor: 'darkblue',
+  },
 });
