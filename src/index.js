@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
-import SwitchExample from './components/switchExample';
+import FlatListExample from './components/flatListExample';
 
 function App() {
   return (
     <Fragment>
-      <SwitchExample/>
+      <FlatListExample/>
     </Fragment>
   );
 }
