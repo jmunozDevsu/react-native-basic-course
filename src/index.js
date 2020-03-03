@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
-import FlatListExample from './components/flatListExample';
+import SectionListExample from './components/sectionListExample';
 
 function App() {
   return (
     <Fragment>
-      <FlatListExample/>
+      <SectionListExample/>
     </Fragment>
   );
 }
