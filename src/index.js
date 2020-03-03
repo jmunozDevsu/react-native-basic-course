@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
-import SliderExample from './components/sliderExample';
+import SwitchExample from './components/switchExample';
 
 function App() {
   return (
     <Fragment>
-      <SliderExample/>
+      <SwitchExample/>
     </Fragment>
   );
 }
