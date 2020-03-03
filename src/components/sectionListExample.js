@@ -1,5 +1,6 @@
 import React from 'react';
 import { SectionList, Text } from 'react-native';
+import styles from '../styles/common';
 
 function SectionListExample() {
   const sections = [
@@ -28,6 +29,13 @@ function SectionListExample() {
       renderItem={({ item }) => (
         <Text>
           {`${item}`}
+        </Text>
+      )}
+      renderSectionHeader={({ section: { title } }) => (
+        <Text
+        style={styles.sectionHeader}
+        >
+          {title}
         </Text>
       )}
     />

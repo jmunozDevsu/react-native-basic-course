@@ -22,4 +22,7 @@ export default StyleSheet.create({
     marginTop: 10,
     backgroundColor: 'darkblue',
   },
+  sectionHeader: {
+    backgroundColor: 'yellow',
+  },
 });
