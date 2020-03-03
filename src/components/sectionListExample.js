@@ -23,19 +23,13 @@ function SectionListExample() {
 
   return (
     <SectionList
-      data={[...sections]}
-      keyExtractor={(item, index) => {
-        console.log(item);
-        return `${item}${index}`;
-      }}
-      renderItem={({ item }) => {
-        console.log(item);
-        return (
-          <Text>
-            {`${item}`}
-          </Text>
-        );
-      }}
+      sections={sections}
+      keyExtractor={(item, index) => `${item}${index}`}
+      renderItem={({ item }) => (
+        <Text>
+          {`${item}`}
+        </Text>
+      )}
     />
   );
 }
