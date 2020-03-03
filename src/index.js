@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
-import ImageExample from './components/imageExample';
+import ScrollViewExample from './components/scrollViewExample';
 
 function App() {
   return (
     <Fragment>
-      <ImageExample/>
+      <ScrollViewExample/>
     </Fragment>
   );
 }
