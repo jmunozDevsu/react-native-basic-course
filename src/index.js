@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
-import PickerExample from './components/pickerExample';
+import SliderExample from './components/sliderExample';
 
 function App() {
   return (
     <Fragment>
-      <PickerExample/>
+      <SliderExample/>
     </Fragment>
   );
 }

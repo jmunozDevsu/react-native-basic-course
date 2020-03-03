@@ -8,9 +8,11 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "postinstall": "cd ios && pod install"
   },
   "dependencies": {
+    "@react-native-community/slider": "^2.0.8",
     "react": "16.9.0",
     "react-native": "0.61.5"
   },
