@@ -2,11 +2,10 @@ import React from 'react';
 import { Platform, Text } from 'react-native';
 
 function PlatformExample() {
-  let text = 'android';
-
-  if (Platform.OS === 'ios') {
-    text = 'ios';
-  }
+  let text = Platform.select({
+    ios: 'ios with select',
+    android: 'android with select',
+  });
 
   return (
     <Text>
