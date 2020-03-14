@@ -1,9 +1,9 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { Button, Text, View } from 'react-native';
 import strings from '../res/strings';
 import commonStyles from '../styles/common';
 
-function HelloFunctionComponent() {
+function HelloFunctionComponent({ navigation: { pop } }) {
   return (
     <View
       style={commonStyles.container}
@@ -18,6 +18,10 @@ function HelloFunctionComponent() {
       >
         {strings.functionalComponent}
       </Text>
+      <Button
+        title="back"
+        onPress={() => pop()}
+      />
     </View>
   );
 }

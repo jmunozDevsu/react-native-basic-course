@@ -14,4 +14,26 @@ export default {
     option2: 'Option 2',
     option3: 'Option 3',
   },
+  form: {
+    title: 'Ejemplo',
+    names: 'Nombres',
+    lastNames: 'Apellidos',
+    email: 'Email',
+    phone: 'Teléfono',
+    gender: 'Género',
+    genderOptions: [
+      {
+        value: 'M',
+        label: 'Maculino',
+      },
+      {
+        value: 'F',
+        label: 'Femenino',
+      },
+    ],
+    age: 'Edad',
+    notification: '¿Recibir Notificaciones?',
+  },
+  continue: 'Continuar',
+  goBack: 'Volver',
 };

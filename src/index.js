@@ -1,11 +1,12 @@
-import React, { Fragment } from 'react';
-import PlatformExample from './components/platformExample';
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import FormNavigation from './navigation/form';
 
 function App() {
   return (
-    <Fragment>
-      <PlatformExample/>
-    </Fragment>
+    <NavigationContainer>
+      <FormNavigation/>
+    </NavigationContainer>
   );
 }
 

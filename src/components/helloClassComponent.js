@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { Button, Text, View } from 'react-native';
 import strings from '../res/strings';
 import commonStyles from '../styles/common';
+import { stackScreens } from '../navigation/screens';
 
 class HelloClassComponent extends Component {
   render() {
+    const { navigation: { push } } = this.props;
     return (
       <View
         style={commonStyles.container}
@@ -19,6 +21,10 @@ class HelloClassComponent extends Component {
             {strings.classComponent}
           </Text>
         </Text>
+        <Button
+          title="navigate"
+          onPress={() => push(stackScreens.FUNCTION)}
+        />
       </View>
     );
   }
