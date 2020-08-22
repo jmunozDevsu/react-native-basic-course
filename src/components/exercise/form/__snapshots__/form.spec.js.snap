@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form component tests Match snapshot 1`] = `
+<ScrollViewMock
+  contentContainerStyle={
+    Object {
+      "padding": 10,
+    }
+  }
+  styles={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/res/images/header.png",
+      }
+    }
+    style={
+      Object {
+        "marginVertical": 20,
+        "maxHeight": 80,
+        "maxWidth": "100%",
+      }
+    }
+  />
+  <Text>
+    Nombres
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "borderBottomColor": "gray",
+          "borderBottomWidth": 1,
+        },
+        Object {
+          "marginBottom": 5,
+        },
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+  <Text>
+    Apellidos
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "borderBottomColor": "gray",
+          "borderBottomWidth": 1,
+        },
+        Object {
+          "marginBottom": 5,
+        },
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+  <Text>
+    Email
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "borderBottomColor": "gray",
+          "borderBottomWidth": 1,
+        },
+        Object {
+          "marginBottom": 5,
+        },
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+  <Text>
+    Teléfono
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "borderBottomColor": "gray",
+          "borderBottomWidth": 1,
+        },
+        Object {
+          "marginBottom": 5,
+        },
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+  <Text>
+    Género
+  </Text>
+  <Picker
+    mode="dialog"
+    onValueChange={[Function]}
+    selectedValue="M"
+    style={
+      Object {
+        "marginBottom": 5,
+      }
+    }
+  >
+    <PickerItem
+      key="0"
+      label="Maculino"
+      value="M"
+    />
+    <PickerItem
+      key="1"
+      label="Femenino"
+      value="F"
+    />
+  </Picker>
+  <Text>
+    Edad
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+        },
+        Object {
+          "marginBottom": 5,
+        },
+      ]
+    }
+  />
+  <ForwardRef(SliderComponent)
+    disabled={false}
+    inverted={false}
+    maximumValue={100}
+    minimumValue={1}
+    onValueChange={[Function]}
+    step={1}
+    style={
+      Object {
+        "marginBottom": 5,
+      }
+    }
+    value={0}
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        },
+        Object {
+          "marginBottom": 5,
+        },
+      ]
+    }
+  >
+    <Text>
+      ¿Recibir Notificaciones?
+    </Text>
+    <Switch
+      onValueChange={[Function]}
+      value={false}
+    />
+  </View>
+  <Button
+    onPress={[Function]}
+    title="Continuar"
+  />
+</ScrollViewMock>
+`;

@@ -1,12 +1,16 @@
 import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import FormNavigation from './navigation/form';
+import { Provider } from 'react-redux';
+
+import store from './redux/store';
+import Component from './redux';
 
 function App() {
   return (
-    <NavigationContainer>
-      <FormNavigation/>
-    </NavigationContainer>
+    <Provider
+      store={store}
+    >
+      <Component/>
+    </Provider>
   );
 }
 

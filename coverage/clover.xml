@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1598064452181" clover="3.2.0">
+  <project timestamp="1598064452181" name="All files">
+    <metrics statements="74" coveredstatements="63" conditionals="16" coveredconditionals="13" methods="29" coveredmethods="22" elements="119" coveredelements="98" complexity="0" loc="74" ncloc="74" packages="12" files="19" classes="19"/>
+    <package name="helloReactNative">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="testUtils.js" path="/Users/jaedmuva/Developer/pichincha/helloReactNative/testUtils.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="23" type="stmt"/>
+      </file>
+    </package>
+    <package name="helloReactNative.src.components.counter">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="counter.js" path="/Users/jaedmuva/Developer/pichincha/helloReactNative/src/components/counter/counter.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="helloReactNative.src.components.exercise.form">
+      <metrics statements="14" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="4"/>
+      <file name="form.js" path="/Users/jaedmuva/Developer/pichincha/helloReactNative/src/components/exercise/form/form.js">
+        <metrics statements="14" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="4"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="39" count="7" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="93" count="2" type="stmt"/>
+      </file>
+      <file name="form.styles.js" path="/Users/jaedmuva/Developer/pichincha/helloReactNative/src/components/exercise/form/form.styles.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="helloReactNative.src.navigation">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="screens.js" path="/Users/jaedmuva/Developer/pichincha/helloReactNative/src/navigation/screens.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="helloReactNative.src.redux">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="store.js" path="/Users/jaedmuva/Developer/pichincha/helloReactNative/src/redux/store.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="helloReactNative.src.redux.actions">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="ActionTypes.js" path="/Users/jaedmuva/Developer/pichincha/helloReactNative/src/redux/actions/ActionTypes.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="books.js" path="/Users/jaedmuva/Developer/pichincha/helloReactNative/src/redux/actions/books.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+      </file>
+      <file name="login.js" path="/Users/jaedmuva/Developer/pichincha/helloReactNative/src/redux/actions/login.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="helloReactNative.src.redux.containers.books">
+      <metrics statements="15" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="3"/>
+      <file name="books.js" path="/Users/jaedmuva/Developer/pichincha/helloReactNative/src/redux/containers/books/books.js">
+        <metrics statements="14" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/jaedmuva/Developer/pichincha/helloReactNative/src/redux/containers/books/index.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="helloReactNative.src.redux.reducers">
+      <metrics statements="8" coveredstatements="8" conditionals="8" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="books.js" path="/Users/jaedmuva/Developer/pichincha/helloReactNative/src/redux/reducers/books.js">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="6" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/jaedmuva/Developer/pichincha/helloReactNative/src/redux/reducers/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="login.js" path="/Users/jaedmuva/Developer/pichincha/helloReactNative/src/redux/reducers/login.js">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="6" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="helloReactNative.src.redux.screens.books">
+      <metrics statements="11" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="3"/>
+      <file name="books.js" path="/Users/jaedmuva/Developer/pichincha/helloReactNative/src/redux/screens/books/books.js">
+        <metrics statements="11" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="3"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="22" count="16" type="stmt"/>
+        <line num="23" count="16" type="stmt"/>
+        <line num="24" count="16" type="stmt"/>
+        <line num="28" count="16" type="stmt"/>
+        <line num="30" count="16" type="stmt"/>
+        <line num="56" count="16" type="stmt"/>
+        <line num="58" count="16" type="cond" truecount="4" falsecount="0"/>
+        <line num="59" count="15" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/jaedmuva/Developer/pichincha/helloReactNative/src/redux/screens/books/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="helloReactNative.src.redux.screens.login">
+      <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="3" methods="4" coveredmethods="4"/>
+      <file name="login.js" path="/Users/jaedmuva/Developer/pichincha/helloReactNative/src/redux/screens/login/login.js">
+        <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="3" methods="4" coveredmethods="4"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="14" count="9" type="stmt"/>
+        <line num="15" count="9" type="stmt"/>
+        <line num="16" count="9" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="36" count="9" type="stmt"/>
+        <line num="38" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="helloReactNative.src.res">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="strings.js" path="/Users/jaedmuva/Developer/pichincha/helloReactNative/src/res/strings.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="helloReactNative.src.res.images">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="header.png" path="/Users/jaedmuva/Developer/pichincha/helloReactNative/src/res/images/header.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
